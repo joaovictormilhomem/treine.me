@@ -1,0 +1,137 @@
+
+:root {
+    --highlight: #89C5CC;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+body {
+    background: #fff;
+}
+
+.wrapper {
+    height: 100vh;
+    padding: 40px;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+}
+
+.text {
+    max-width: 500px;
+}
+
+.illustration {
+    user-select: none;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Inter;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    color: var(--highlight);
+    cursor: pointer;
+    user-select: none;
+}
+
+.menu {
+    user-select: none;
+    display: flex;
+    gap: 20px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #aaa;
+    font-weight: 400;
+}
+
+.menu a.active {
+    color: #2a1c42;
+    font-weight: 600;
+}
+
+.menu a:hover {
+    color: #2a1c42;
+}
+
+h1 {
+    font-size: 49px;
+    font-weight: 400;
+    margin: 20px 0;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+h1 span {
+    color: var(--highlight);
+    font-weight: 700;
+}
+
+p {
+    color: #666;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    line-height: 28px;
+    max-width: 370px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+p span {
+    font-weight: 700;
+}
+
+.btn {
+    user-select: none;
+    display: inline-flex;
+    align-items: center;
+    padding: 15px 32px;
+    background: #69B99D;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: DM Sans;
+}
+
+.btn:hover {
+    background: var(--highlight);
+}
+
+.btn svg {
+    margin-right: 10px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+.footer a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #222;
+}
